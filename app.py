@@ -375,3 +375,4 @@ elif choice == "📓 复盘日记":
         with st.chat_message("user"): # 借用对话框样式作为卡片
             st.write(f"**{r['date']} | {r['stock_name']}**")
             st.write(r['content'])
+
